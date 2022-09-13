@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Home | SITE_NAME</title>
+
+    <!--
+    Filename: ./index.html
+    Project:  Session-04
+    Author:   Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
+    Created:  9/08/2022
+    Version:  1.0
+    -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Reset from https://elad2412.github.io/the-new-css-reset/ -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/reset.css')}}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/site.css')}}">
+
+    <!-- JS (Deferred) -->
+
+</head>
+<body>
+<!-- header>h1+nav>a[href=#]{Link $}*5 -->
+<header class="header-site">
+    <h1 class="branding">Logo</h1>
+    <nav class="nav-site">
+        <a href="#" class="nav-button active">Home</a>
+        <a href="#" class="nav-button">Recipes</a>
+        <a href="#" class="nav-button">About</a>
+        <a href="#" class="nav-button">Contact Us</a>
+        <a href="#" class="nav-button">Copyright</a>
+    </nav>
+</header>
+
+<!-- div.container -->
+
+<div class="container">
+    <!-- header.header-content+main+footer.footer-content -->
+    <header class="header-content">
+        <!-- h2 -->
+        <h2>Content Header - eg chapter name</h2>
+    </header>
+    <main class="content">
+
+        <section>
+            Section
+        </section>
+        <!-- (p>{Paragraph $})*2+p>lorem -->
+        <p>Paragraph 1</p>
+        <p>Paragraph two</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Aliquam amet fugiat labore minus, numquam
+            quidem. Atque blanditiis cum dolore, dolores et,
+            exercitationem facere maxime nemo repudiandae saepe,
+            sapiente tempore unde.</p>
+    </main>
+    <footer class="footer-content">
+        <p>Content Footer - eg by-line / date</p>
+    </footer>
+
+</div>
+<footer class="footer-site">
+    <!-- (div>{Footer Column})*2 -->
+    <div>
+        <p>&copy; Copyright 2022 YOUR_NAME.</p>
+        <p class="small">This site is part of my learning for Web Technologies as part
+            of the ICT40120 Certificate IV in Information Technology (Programming)</p>
+    </div>
+    <div>
+        <a class="footer-link" href="./about">About</a>
+        <a class="footer-link" href="./contact-us">Contact</a>
+        <a class="footer-link" href="https://northmetrotafe.wa.edu.au">North Metro TAFE</a>
+        <a class="footer-link" href="https://www.theodinproject.com">The Odin Project</a>
+    </div>
+</footer>
+</body>
+</html>

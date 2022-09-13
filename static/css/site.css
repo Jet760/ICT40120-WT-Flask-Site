@@ -1,0 +1,129 @@
+/**
+ * Filename: ./assets/css/site.css
+ * Project:  Session-04
+ * Author:   Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
+ * Created:  9/08/2022
+ * Version:  1
+ */
+
+/* Define whole of site base font and colour */
+html {
+    font-family: Poppins, "Trebuchet MS", Arial, sans-serif;
+    color: #1e293b;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 100vh;
+}
+
+.header-site {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    display: flex;
+}
+
+.branding {
+    margin: 0;
+    padding: 1rem;
+}
+
+.nav-site {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-button {
+    display: block;
+    width: auto;
+    min-width: 4rem;
+    max-width: 15rem;
+    border-bottom: 3px solid #64748b;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.nav-button:hover {
+    background: #0ea5e9;
+    border-bottom: 3px solid #dc2626;
+}
+
+.nav-button.active {
+    border-bottom-color: #f59e0b;
+}
+
+.header-content,
+.footer-content {
+    background-color: #e2e8f0;
+    padding: 1rem;
+    color: #0f172a;
+}
+
+.header-content {
+    margin-top: 1rem;
+}
+
+.header-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content {
+    padding: 1rem;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+}
+
+.content p {
+    margin: 1rem 0;
+}
+
+.content p:first-child {
+    margin-top: 0;
+}
+
+
+.footer-content {
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+}
+
+.footer-site {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 1.5rem 1rem;
+    margin: 4rem 0 0 0;
+    display: flex;
+    font-weight: 200;
+}
+
+.footer-site div {
+    width: 50%;
+    padding: 1rem;
+}
+
+.footer-link {
+    padding: 0.125rem 0 0 0;
+    display: block;
+    text-align: right;
+    text-decoration: #64748b underline 2px;
+}
+
+.footer-link:hover {
+    text-decoration: #f59e0b underline 2px;
+}
+
+.footer-site p {
+    padding: 0.5rem 0;
+}
+
+.small {
+    font-size: 0.8rem;
+}
