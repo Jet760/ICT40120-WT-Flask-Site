@@ -1,3 +1,6 @@
+.idea
+.idea/**
+
 ### NotepadPP template
 # Notepad++ backups #
 *.bak

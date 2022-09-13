@@ -19,13 +19,14 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
 
     <!-- CSS Reset from https://elad2412.github.io/the-new-css-reset/ -->
-    <link rel="stylesheet" href="{{url_for('static', filename='css/reset.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{url_for('static', filename='css/site.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
 
     <!-- JS (Deferred) -->
 
@@ -36,15 +37,14 @@
     <h1 class="branding">Logo</h1>
     <nav class="nav-site">
         <a href="#" class="nav-button active">Home</a>
-        <a href="#" class="nav-button">Recipes</a>
-        <a href="#" class="nav-button">About</a>
+        <a href="#" class="nav-button">First</a>
+        <a href="#" class="nav-button">Second</a>
         <a href="#" class="nav-button">Contact Us</a>
-        <a href="#" class="nav-button">Copyright</a>
+        <a href="#" class="nav-button">Legal</a>
     </nav>
 </header>
 
 <!-- div.container -->
-
 <div class="container">
     <!-- header.header-content+main+footer.footer-content -->
     <header class="header-content">
@@ -53,17 +53,18 @@
     </header>
     <main class="content">
 
-        <section>
-            Section
-        </section>
+        <article>
+            <p>Paragraph 1</p>
+            <p>Paragraph two</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aliquam amet fugiat labore minus, numquam
+                quidem. Atque blanditiis cum dolore, dolores et,
+                exercitationem facere maxime nemo repudiandae saepe,
+                sapiente tempore unde.</p>
+        </article>
+
         <!-- (p>{Paragraph $})*2+p>lorem -->
-        <p>Paragraph 1</p>
-        <p>Paragraph two</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Aliquam amet fugiat labore minus, numquam
-            quidem. Atque blanditiis cum dolore, dolores et,
-            exercitationem facere maxime nemo repudiandae saepe,
-            sapiente tempore unde.</p>
+
     </main>
     <footer class="footer-content">
         <p>Content Footer - eg by-line / date</p>
